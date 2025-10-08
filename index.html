@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnkey Repair in Rostov-on-Don</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">IC "REPAIR DESIGN PROJECT"</div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#measurement">MEASUREMENT</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#reviews">REVIEWS</a></li>
+                        <li><a href="#contacts">CONTACTS</a></li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <a href="tel:+79287683239" class="phone">+7 (928) 768-32-39</a>
+                    <button class="btn btn--primary">Request a call</button>
+                </div>
+                <button class="burger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    TURNKEY REPAIR IN THE<br>CITY OF <span class="highlight">ROSTOV-ON-DON</span>
+                </h1>
+                <p class="hero__description">
+                    Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work
+                </p>
+                <div class="hero__actions">
+                    <button class="btn btn--primary">CALCULATE THE COST</button>
+                    <button class="btn btn--secondary">SUBMIT YOUR APPLICATION</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с проектами -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">COMPLETED PROJECTS</h2>
+            <p class="section-description">
+                Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
+            </p>
+            
+            <div class="projects-slider">
+                <!-- Слайды проектов будут добавляться через JS -->
+            </div>
+            
+            <div class="projects-controls">
+                <button class="slider-arrow prev">←</button>
+                <div class="slider-dots"></div>
+                <button class="slider-arrow next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок онлайн-контроля -->
+    <section class="online-control">
+        <div class="container">
+            <h2 class="section-title">ONLINE CONTROL</h2>
+            <div class="online-control__video">
+                <!-- Здесь будет видео или изображение -->
+            </div>
+            <p class="online-control__description">
+                At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+            </p>
+            <form class="online-control__form">
+                <div class="form-group">
+                    <label for="name">What is your name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your phone number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the processing of personal data</label>
+                </div>
+                <button type="submit" class="btn btn--primary">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Блок с типами ремонта -->
+    <section class="repair-types">
+        <div class="container">
+            <h2 class="section-title">TYPES OF REPAIR</h2>
+            <div class="repair-types__grid">
+                <!-- Карточки типов ремонта будут добавлены через JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <h3>Contacts</h3>
+                    <address>
+                        Rostov-on-Don, st. Soviet, 56
+                    </address>
+                    <a href="tel:+79287683239">+7 (928) 768-32-39</a>
+                    <div class="social-links">
+                        <!-- Иконки соцсетей -->
+                    </div>
+                </div>
+                <div class="footer__map">
+                    <!-- Карта -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
